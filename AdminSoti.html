@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malabar Gold and Diamonds</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        @font-face {
+            font-family: 'Gotham';
+            src: url('path/to/Gotham-Regular.woff2') format('woff2'), url('path/to/Gotham-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Gotham';
+            src: url('path/to/Gotham-Bold.woff2') format('woff2'), url('path/to/Gotham-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .header {
+            background-color: #9A0162;
+            padding: 10px 0;
+            width: 100%;
+        }
+        
+        .logo {
+            width: 150px;
+            margin: 10px auto;
+        }
+        
+        .slideshow-container {
+            height: 300px;
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .swiper-wrapper {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: 100%;
+        }
+        
+        .swiper-slide {
+            flex: 0 0 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            color: rgb(32, 28, 28);
+            font-size: 2.0em;
+            text-transform: capitalize;
+            text-align: center;
+            margin: 20px 0 10px;
+        }
+        
+        h3 {
+            margin: 0;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        
+        h2 {
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        button,
+        .settings {
+            background-color: #9A0162;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            font-family: 'Gotham', sans-serif;
+            /* Set font to Gotham */
+            width: 80%;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        button:hover,
+        .settings:hover {
+            background-color: #a52c72;
+            transform: translateY(-2px);
+        }
+        
+        img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        
+        .icon {
+            margin-right: 8px;
+            /* Space between icon and text */
+        }
+        
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="https://static.malabargoldanddiamonds.com/skin/frontend/malabar/default/images/new_icons/logo.svg" alt="Malabar Gold Logo" class="logo">
+        </div>
+
+        <h2 class="section-title">Malabar Promises</h2>
+        <h3>The promises that we'll never break</h3>
+
+        <div class="slideshow-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://www.malabargoldanddiamonds.com/assured-lifetime-maintenance.html">
+                        <img src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/assured-lifetime-maintence.svg" alt="Test_Akshay">
+                    </a>
+                    <h2>Assured Lifetime<br />Maintenance</h2>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.malabargoldanddiamonds.com/easy-exchange.html">
+                        <img src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/Value-on-diamond.svg" alt="">
+                    </a>
+                    <h2>100% Value On<br />Diamond Exchange</h2>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.malabargoldanddiamonds.com/your-jewellery-is-insured.html">
+                        <img src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/value-on-gold-exchange.svg" alt="">
+                    </a>
+                    <h2>100% Value On<br />Gold Exchange</h2>
+                </div>
+                <div class="swiper-slide">
+                    <a href="malabar-promise">
+                        <img src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/15-day-return.svg" alt="">
+                    </a>
+                    <h2>15 Days<br />Return</h2>
+                </div>
+                <div class="swiper-slide">
+                    <a href="malabar-promise">
+                        <img src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/916-purity.svg" alt="">
+                    </a>
+                    <h2>916 Hallmarked<br />Pure Gold</h2>
+                </div>
+                <div class="swiper-slide promise-slide" style="cursor: pointer;" onclick="location.href='malabar-promise';">
+                    <a href="https://www.malabargoldanddiamonds.com/14-days-return-policy.html"><img class="img-responsive" title="" alt="" src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/Fair-labour-practices.svg" /></a>
+                    <h2>Fair Labour<br />Practices</h2>
+                </div>
+                <div class="swiper-slide promise-slide" style="cursor: pointer;" onclick="location.href='malabar-promise';">
+                    <a href="https://www.malabargoldanddiamonds.com/tested-and-certified-diamonds.html"><img class="img-responsive" title="" alt="" src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/Tested-Certified-Diamonds.svg" /></a>
+                    <h2>Tested &amp; Certified<br />Diamonds</h2>
+                </div>
+                <div class="swiper-slide promise-slide" style="cursor: pointer;" onclick="location.href='malabar-promise';">
+                    <a href="https://www.malabargoldanddiamonds.com/complete-transparency.html"><img class="img-responsive" style="width: 45px !important;" title="" alt="" src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/Complete-Transparency.svg" /></a>
+                    <h2>Complete<br />Transparency</h2>
+                </div>
+                <div class="swiper-slide promise-slide" style="cursor: pointer;" onclick="location.href='malabar-promise';">
+                    <a href="https://www.malabargoldanddiamonds.com/zero-deduction-gold-exchange.html"><img class="img-responsive" title="" alt="" src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/Fair-P-ricePolicy.svg" /></a>
+                    <h2>Fair Price<br />Policy</h2>
+                </div>
+                <div class="swiper-slide promise-slide" style="cursor: pointer;" onclick="location.href='malabar-promise';">
+                    <a href="https://www.malabargoldanddiamonds.com/bis-916-hallmarked-pure-gold.html"><img class="img-responsive" style="width: 67px !important;" title="" alt="" src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/Guaranteed-Buyback.svg" /></a>
+                    <h2>Guaranteed<br />Buyback</h2>
+                </div>
+                <div class="swiper-slide promise-slide">
+                    <a href="malabar-promise"><img class="img-responsive" title="" alt="" src="https://www.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/010_Oct/intl-promises/ResponsibleSources-Products.svg" /></a>
+                    <h2>Responsibly<br />Sourced Products</h2>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="handleLogin()">
+            <i class="fas fa-user icon"></i> Login
+        </button>
+        <div class="settings">
+            <a href="settings.html" style="color: white; text-decoration: none;">
+                <i class="fas fa-cog icon"></i> Settings
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function handleLogin() {
+            alert("Test");
+        }
+
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.swiper-slide');
+
+        function showNextSlide() {
+            slides[currentIndex].style.display = 'none';
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].style.display = 'flex'; // Show the next slide
+        }
+
+        function startSlideshow() {
+            // Initially hide all slides except the first one
+            slides.forEach((slide, index) => {
+                if (index !== 0) {
+                    slide.style.display = 'none';
+                }
+            });
+            setInterval(showNextSlide, 4000); // Change slide every 4 seconds
+        }
+
+        startSlideshow();
+    </script>
+
+</body>
+
+</html>
